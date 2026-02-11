@@ -13,7 +13,7 @@ EOT
     alert_rule_template_guid   = string
     log_analytics_workspace_id = string
     name                       = string
-    enabled                    = optional(bool, true)
+    enabled                    = optional(bool) # Default: true
   }))
 }
 
